@@ -1,8 +1,8 @@
 <div class="jumbotron">
-    <h2 class="h1-responsive">{{weather.name}}</h2>
+    <h2 class="h1-responsive">{{WeatherData.name}}</h2>
     <hr class="my-2">
-    <p>25˚</p>
-    <p class="lead">Min: 11˚ Max:18˚</p>
+    <p>{{WeatherData.temp_celcius}}˚C</p>
+    <p class="lead">Min: {{WeatherData.temp_min}}˚ Max:{{WeatherData.temp_max}}˚</p>
     <!-- <img src={{weather.icon}}> -->
     <form> 
         <div class="input-group">

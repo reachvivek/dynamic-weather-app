@@ -5,7 +5,6 @@ import {HttpClientModule} from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TodayComponent } from './today/today.component';
-import { WeatherService } from './weather.service';
 
 @NgModule({
   declarations: [
@@ -17,7 +16,7 @@ import { WeatherService } from './weather.service';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [WeatherService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
